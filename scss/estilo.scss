@@ -1,0 +1,81 @@
+@import "./body";
+@import "./formulario";
+@import "./mediaqueries";
+*{
+    margin: 0;
+    padding: 0;
+    }
+    @media only screen and (min-width: 600px){
+        body{
+           background-color:#98887c;
+           h1{
+            color:#425b6e;
+            font-size: 3rem;
+            .formularioMio{
+               background-color:#94736e;
+            width: 600px;
+            height: 400px;
+            .menu{
+               background-color:#94736e;
+               padding: 5px;
+               list-style: none;
+               margin: 20px auto;
+               text-align: center;
+               display: flex;
+               flex-direction: column;
+               justify-content: space-around;
+            }
+          }
+         }
+        }
+     }  
+        
+        
+     
+     body{
+        background-color: #98887c;
+        font-family: Arial, Helvetica, sans-serif;
+        .menu{
+         background-color:#94736e;
+         padding: 5px;
+         list-style: none;
+         margin: 20px auto;
+         text-align: center;
+         display: flex;
+         flex-direction: column;
+         justify-content: space-around;
+             li{
+          display: inline-block;
+          text-align: center;
+                   a{
+                      padding: 10px;
+                      margin: 10px;
+                      color:#babec0;
+                        hover{
+                         color:#682a3d;
+                         background-color:#babec0;
+                         h1{
+                           color:#425b6e;
+                           p{
+                              color:#425b6e;
+                              text-align: center;
+                              .col-6{
+                                 height: 50px;
+                                 transition: height 2s;
+                                 /* propiedad duracion */
+                                 hover{
+                                    height: 100px;
+                                    .formularioMio{
+                                       background-color:#682a3d;
+                                       width: 700px;
+                                       height: 500px;
+                           }
+                         }
+                      }
+                   }
+               }
+            }
+          }
+        }
+      } 
+     }

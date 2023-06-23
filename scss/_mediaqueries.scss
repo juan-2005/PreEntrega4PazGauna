@@ -1,0 +1,30 @@
+@import "./body";
+@import "./formulario";
+@import "./mediaqueries";
+
+$ancho:600px;
+$alto:400px;
+@media only screen and (min-width: 600px){
+    body{
+       background-color:#98887c;
+    }
+    h1{
+       color:#425b6e;
+       font-size: 3rem;
+    }
+    .formularioMio{
+        background-color: #94736e;
+     width:$ancho;
+     height:$alto;
+     }
+    .menu{
+       background-color:#94736e;
+       padding: 5px;
+       list-style: none;
+       margin: 20px auto;
+       text-align: center;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-around;
+    }
+}
