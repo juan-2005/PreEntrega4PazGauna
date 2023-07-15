@@ -2,7 +2,7 @@
 @import "./formulario";
 @import "./mediaqueries";
 .formularioMio{
-    background-color:#682a3d;
+    background: color #808080;
     width: 700px;
     height: 500px;
     }

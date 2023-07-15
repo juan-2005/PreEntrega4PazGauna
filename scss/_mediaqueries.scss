@@ -6,19 +6,19 @@ $ancho:600px;
 $alto:400px;
 @media only screen and (min-width: 600px){
     body{
-       background-color:#98887c;
+       background: color #2c3e3a;
     }
     h1{
-       color:#425b6e;
+       color:#ffffff;
        font-size: 3rem;
     }
     .formularioMio{
-        background-color: #94736e;
+        background-color: #808080;
      width:$ancho;
      height:$alto;
      }
     .menu{
-       background-color:#94736e;
+       background-color:#000000;
        padding: 5px;
        list-style: none;
        margin: 20px auto;

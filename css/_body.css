@@ -2,18 +2,18 @@
 @import "./formulario";
 @import "./mediaqueries";
 body{
-    background-color:#98887c;
+    background: color #2c3e3a;
     font-family: Arial, Helvetica, sans-serif;
 }
 h1{
-    color:#425b6e;
+    color:#ffffff;
  }
  p{
-    color:#425b6e;
+    color:#ffffff;
     text-align: center;
  }
  .menu{
-    background-color:#94736e;
+    background-color:#000000;
     padding: 5px;
     list-style: none;
     margin: 20px auto;
@@ -27,11 +27,11 @@ h1{
     text-align: center;
  }
  .menu li a:hover{
-    color: #682a3d;
-    background-color:#babec0 ;
+    color: #000000;
+    background-color:#ffffff;
  }
  a{
     padding: 10px;
     margin: 10px;
-    color: #babec0;
+    color: #ffffff;
  }

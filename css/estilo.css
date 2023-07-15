@@ -1,25 +1,26 @@
 @import "./_body.css";
 @import "./_formulario.css";
 @import "./_mediaqueries.css";
+
 * {
   margin: 0;
   padding: 0; }
 
 @media only screen and (min-width: 600px) {
   body {
-    background-color: #98887c; 
+    background-color: #2c3e3a; 
       }
     h1 {
-      color: #425b6e;
+      color: #ffffff;
       font-size: 3rem; 
       }
     .formularioMio {
-        background-color: #94736e;
+        background-color: #808080;  
         width: 600px;
         height: 400px;
           }
     .menu {
-          background-color: #94736e;
+          background-color: #000000; 
           padding: 5px;
           list-style: none;
           margin: 20px auto;
@@ -30,11 +31,11 @@
         }
 
 body {
-  background-color: #98887c;
+  background-color: #2c3e3a;
   font-family: Arial, Helvetica, sans-serif;
  }
 .menu {
-    background-color: #94736e;
+    background-color: #000000;   
     padding: 5px;
     list-style: none;
     margin: 20px auto;
@@ -49,28 +50,37 @@ body {
       a {
         padding: 10px;
         margin: 10px;
-        color: #babec0;
+        color: #ffffff;
      }
         .menu li a:hover {
-          color: #682a3d;
-          background-color: #babec0;
+          color: #000000;  
+          background-color: #ffffff; 
          }
         h1 {
-            color: #425b6e; 
+            color: #ffffff; 
            }
         p {
-              color: #425b6e;
+              color: #ffffff;
               text-align: center; 
             }
-            .col-6 {
-                height: 50px;
-                transition: height 2s;
-                /* propiedad duracion */ 
-            }
+           .col-6{
+           border: solid 1px, #ffffff;
+           padding: 5px;
+           display: inline-block;
+           font-size: 20px;
+           font-family: Arial, Helvetica, sans-serif;
+          /**/
+           width: 100%;
+           height: 50px;
+           transition: height 2s;
+            /* propiedad duracion */
+           overflow: hidden; 
+          }
             .col-6:hover{
-                  height: 100px; 
+                  height: 100px;
                 }
                  .formularioMio {
-                    background-color: #682a3d;
+                    background-color: #808080;   
                     width: 700px;
                     height: 500px; }
+                   

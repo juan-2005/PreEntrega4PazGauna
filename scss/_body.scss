@@ -1,11 +1,10 @@
 @import "./body";
 @import "./formulario";
 @import "./mediaqueries";
-$colorTexto:#98887c;
-$colorbg2:#425b6e;
-$colorbg3:#94736e;
-$colorbg4:#babec0;
-$colorbg5:#babec0;
+$colorTexto:#2c3e3a;
+$colorbg2:#ffffff;
+$colorbg3:#000000;
+
 
 
 body{
@@ -35,10 +34,10 @@ p{
 }
 .menu li a:hover{
    color:$colorbg3;
-   background-color:$colorbg4;
+   background: color $colorbg2;
 }
 a{
    padding: 10px;
    margin: 10px;
-   color:$colorbg5;
+   color:$colorbg2;
 }
